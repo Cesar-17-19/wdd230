@@ -12,6 +12,7 @@ body {
 
 ;
 
+
 main {
     max-width: 800px;
     margin: 0 auto;
@@ -20,19 +21,19 @@ main {
     gap: 20px;
 }
 
-;
+
 
 section {
     display: block;
 }
 
-;
+
 
 ul {
     list-style-type: none;
 }
 
-;
+
 
 .card {
     background-color: #f0f0f0;
@@ -41,17 +42,15 @@ ul {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-;
+
 
 a {
     text-decoration: none;
     color: #3498db;
 }
 
-;
+
 
 a:hover {
     color: #2980b9;
 }
-
-;
