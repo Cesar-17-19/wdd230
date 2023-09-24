@@ -20,7 +20,7 @@ main {
 }
 
 header {
-    display: flow;
+    display: flow-root;
     text-align: center;
 }
 
