@@ -10,8 +10,6 @@ body {
     margin: 0;
 }
 
-;
-
 
 main {
     max-width: 800px;
@@ -21,7 +19,16 @@ main {
     gap: 20px;
 }
 
+header {
+    display: flow;
+    text-align: center;
+}
 
+nav {
+    display: block;
+    padding: 2.5rem;
+    text-align: left;
+}
 
 section {
     display: block;
