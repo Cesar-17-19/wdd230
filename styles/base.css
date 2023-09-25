@@ -22,12 +22,14 @@ main {
 header {
     display: flow-root;
     text-align: center;
+    padding: 2.5rem;
 }
 
 nav {
     display: block;
     padding: 2.5rem;
     text-align: left;
+    margin-left: 50px;
 }
 
 section {
@@ -60,4 +62,10 @@ a {
 
 a:hover {
     color: #2980b9;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
