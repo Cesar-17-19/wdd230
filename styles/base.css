@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 15%;
+    height: 15%;
+}
+
 body {
     display: grid;
     justify-content: center;
