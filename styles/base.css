@@ -23,8 +23,9 @@ body {
 
 
 main {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 20% 30% 20% 30%;
+    grid-template-rows: 30% 40% 30%;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -72,9 +73,22 @@ nav ul {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 5px;
 }
 
+h2 {
+    grid-column: 1/5;
+}
 
+#one {
+    grid-column: 1/5;
+    grid-row: 2/3;
+}
+
+#two {
+    grid-column: 1/5;
+    grid-row: 3/4;
+}
 
 a {
     text-decoration: none;
