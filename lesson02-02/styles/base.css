@@ -56,7 +56,7 @@ main {
 
 .img-container img {
     width: 100%;
-    height: self;
+    height: auto;
 }
 
 footer {
