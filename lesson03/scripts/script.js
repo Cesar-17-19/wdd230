@@ -7,16 +7,3 @@ document.addEventListener('DOMContentLoaded', function () {
     const lastModifiedTimestamp = document.lastModified;
     document.getElementById('lastModified').textContent = lastModifiedTimestamp;
 });
-
-const hamButton = document.querySelector('#button');
-const navigation = document.querySelector('.navigation');
-const displayMap = document.querySelector('#map')
-
-hamButton.addEventListener('click', () => {
-    navigation.classList.toggle('open');
-    hamButton.classList.toggle('open');
-    displayMap.classList.toggle('open')
-});
-
-
-
